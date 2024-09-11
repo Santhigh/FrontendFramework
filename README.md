@@ -10,7 +10,7 @@ Config: This package contains browser details, URL, and user credentials details
 
 Resources :
 
-Static resources: it contains the static variables used throughout the framework.
+Static resources: it contains the static variables used throughout the project.
 
 Utilities: This package contains classes to retrieve the test data, take screenshots, and store reports.
 
