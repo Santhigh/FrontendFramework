@@ -15,7 +15,7 @@ public class Base {
     public  void launchBrowser() throws IOException {
         loadProperties();
         loadTestData();
-        String  br = System.getProperty("browserName");
+        String  br =  System.getProperty("browserName");
         if(br == null){
             br = GLOBAL_STATIC.prop.getProperty("browser");
             openSpecificBrowser(br);
